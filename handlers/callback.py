@@ -18,7 +18,7 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""!! Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !!\n
-💭 **[HERPENTS_MUSIC_BOT](https://t.me/HERPENTSMUSICBOT) allows you to play music on groups through the new Telegram's voice chats!**
+💭 **[LishRaj_VC_Bot](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » COMMANDS button!**
 
@@ -28,20 +28,22 @@ async def cbstart(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "➕ Add me to your Group ➕",
-                        url=f"https://t.me/HERPENTS_MUSIC_BOT?startgroup=true",
+                        url=f"https://t.me/LishRaj_Vc_Bot?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("COMMANDS", callback_data="cbcmds"),
-                    InlineKeyboardButton("Donate (Me Ghareeb Hu)", url=f"https://t.me/TEAM_SERPENT"),
+                    InlineKeyboardButton("Donate (Me Ghareeb Hu)", url=f"https://t.me/LishRaj_Vc_Bot"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SUPPORT Group", url=f"https://t.me/SERPENT_BOTS_SUPPORT"
+                        "SUPPORT Group", url=f"https://t.me/LishRaj"
                     ),
                     InlineKeyboardButton(
-                        "UPDATES Channel", url=f"https://t.me/SERPENT_BOTS"
+                        "UPDATES Channel", url=f"https://t.me/SERPENT_BOT
+                        
+       "
                     ),
                 ],
                 [
