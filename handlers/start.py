@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome Welcoome{message.from_user.mention} !**\n
-💭 **[HERPENTS MUSIC](https://t.me/HERPENTSMUISCBOT) allows you to play music on groups through the new Telegram's voice chats!**
+💭 **[𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » Commands button!**
 
@@ -73,15 +73,15 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/SERPENT_BOTS_SUPPORT"
+                        "👥 Official Group", url=f"https://t.me/LishAj"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/SERPENT_BOTS"
+                        "📣 Official Channel", url=f"https://t.me/LishRaj"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://youtu.be/dQw4w9WgXcQ"
+                        "🌐 Source Code", url="https://t.me/LishRaj"
                     )
                 ],
             ]
@@ -101,9 +101,9 @@ async def start(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/SERPENT_BOTS_SUPPORT"),
+                InlineKeyboardButton("✨ Group", url=f"https://t.me/LishRaj"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/SERPENT_BOTS"
+                    "📣 Channel", url=f"https://t.me/LishRaj"
                 ),
             ]
         ]
@@ -139,7 +139,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `DING!! DONG!! PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `Love!! Lob!! PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
