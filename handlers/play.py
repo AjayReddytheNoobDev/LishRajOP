@@ -121,8 +121,8 @@ async def playlist(client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/SERPENT_BOTS_SUPPORT "),
-                InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS"),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
+                InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"),
             ]
         ]
     )
@@ -261,9 +261,9 @@ async def p_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/SERPENT_BOTS_SUPPORT"),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS"
+                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
                 ),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
@@ -309,9 +309,9 @@ async def m_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/SERPENT_BOTS_SUPPORT "),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS"
+                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
                 ),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
@@ -484,7 +484,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **searching... knata laga oima oima oima**")
+    lel = await message.reply("🔎 **searching... 𝐋𝐢𝐬𝐡𝐑𝐚𝐣♥️ OP Bolte**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -571,7 +571,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/lishraj"
                     )
                 ],
             ]
