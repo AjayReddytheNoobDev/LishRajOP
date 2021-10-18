@@ -578,7 +578,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/eb2f5ca34b47b1ad289e7.jpg"
+        thumb_name = "https://telegra.ph/file/84b3da649e65dbd08ad30.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -590,7 +590,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🔎 **searching... kanta laga oima oima oima**")
+        await lel.edit("🔎 **searching.....𝐋𝐢𝐬𝐡𝐑𝐚𝐣♥️ OP Bolte**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -620,7 +620,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS"
+                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
                     )
                 ],
             ]
@@ -650,7 +650,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}...](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├  **Duration** - `{results[j]['duration']}`\n"
-                toxxt += f" └  __Powered by @SERPENT_BOTS__\n\n"
+                toxxt += f" └  __Powered by 𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️__\n\n"
                 j += 1
             keyboard = InlineKeyboardMarkup(
                 [
@@ -714,7 +714,7 @@ async def play(_, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS"
+                            "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
                         )
                     ],
                 ]
@@ -819,7 +819,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("• CHANNEL", url=f"https://t.me/SERPENT_BOTS")],
+            [InlineKeyboardButton("• CHANNEL", url=f"https://t.me/LishRaj")],
         ]
     )
     await generate_cover(title, thumbnail, ctitle)
@@ -969,7 +969,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/SERPENT_BOTS")],
+            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj")],
         ]
     )
     message.from_user.first_name
