@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/LishRaj_Vc_Bot"><img src="https://github.com/AjayReddytheNoobDev/HERPENTSMUSICBOT/blob/main/etc/HERPENTSMUSIC.jpg.jpg"></a></p>
+<p align="center"><a href="https://t.me/LishRaj_Vc_Bot"><img src="https://github.com/AjayReddytheNoobDev/LishRajOP/blob/main/etc/IMG_20211018_230801_289.jpg"></a></p>
 <p align="center">
     <br><b>HERPENTS Music is a telegram bot that allows you to play music on telegram voice chat of group or channel</b><br>
 </p>
