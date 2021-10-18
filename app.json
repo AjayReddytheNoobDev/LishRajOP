@@ -1,9 +1,9 @@
 {
-    "name": "HERPENTS Music Bot",
-    "logo": "hhttps://telegra.ph/file/e324b9bd89a3df9937999.jpg",
-    "description": "HERPENTS music allow you to stream music trought the telegram voice chat feature.",
+    "name": "𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️",
+    "logo": "https://telegra.ph/file/84b3da649e65dbd08ad30.jpg",
+    "description": "𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️ allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/AjayReddytheNoobDev/HERPENTSMUSICBOT",
+    "repository": "https://github.com/AjayReddytheNoobDev/LishRajOO",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,7 +17,7 @@
         "BOT_NAME": {
             "description": "fill with your music bot name.",
             "required": true,
-            "value": "HERPENTS MUSIC"
+            "value": "𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️"
         },
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
