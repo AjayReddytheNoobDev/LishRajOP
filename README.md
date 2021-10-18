@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/HERPENTSMUSICBOT"><img src="https://github.com/AjayReddytheNoobDev/HERPENTSMUSICBOT/blob/main/etc/HERPENTSMUSIC.jpg.jpg"></a></p>
+<p align="center"><a href="https://t.me/LishRaj_Vc_Bot"><img src="https://github.com/AjayReddytheNoobDev/HERPENTSMUSICBOT/blob/main/etc/HERPENTSMUSIC.jpg.jpg"></a></p>
 <p align="center">
     <br><b>HERPENTS Music is a telegram bot that allows you to play music on telegram voice chat of group or channel</b><br>
 </p>
@@ -32,7 +32,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AjayReddytheNoobDev/HERPENTSMUSICBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AjayReddytheNoobDev/LishRajOP)
 
 ## VPS Deployment 📡
 
