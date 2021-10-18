@@ -41,14 +41,12 @@ async def cbstart(_, query: CallbackQuery):
                         "SUPPORT Group", url=f"https://t.me/LishRaj"
                     ),
                     InlineKeyboardButton(
-                        "UPDATES Channel", url=f"https://t.me/SERPENT_BOT
-                        
-       "
+                        "UPDATES Channel", url=f"https://t.me/LishRaj"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE", url="https:/t.me/SERPENT_BOTS_SOURCE"
+                        "SOURCE", url="https:/t.me/LishRaj"
                     )
                 ],
             ]
@@ -64,7 +62,7 @@ async def cbhelp(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -102,7 +100,7 @@ async def cbbasic(_, query: CallbackQuery):
 /refresh - refresh the admin cache
 /ubjoinc - invite the assistant for join to your channel
 
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -142,7 +140,7 @@ async def cbadmin(_, query: CallbackQuery):
 /control - opens the player settings panel
 /delcmd (on | off) - enable / disable del cmd featurep
 
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -196,7 +194,7 @@ async def cbguide(_, query: CallbackQuery):
 2.) **Promote me in your group as admin and give all permissions including Add admins, but dont give me Reamin anonymous right**
 3.) **add @HERPENTSVCPLAYER to your group or type /join to invite that kid**
 4.) **Turn on the voice chat first before start to play music.**
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("COMMANDS", callback_data="cbhelp")],
@@ -289,7 +287,7 @@ async def cbguides(_, query: CallbackQuery):
 3.) **add @{ASSISTANT_NAME} to your group or type /join to invite her.**
 4.) **Turn on the voice chat first before you start to play music.**
 
-Say thanks to @TEAM_SERPENT""",
+Say thanks to @LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -320,7 +318,7 @@ async def cblocal(_, query: CallbackQuery):
 /refresh - refresh the admin cache
 /ubjoinc - invite the assistant for join to your channel
 
-Say thanks to @TEAM_SERPENT""",
+Say thanks to @LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -336,7 +334,7 @@ async def cbadven(_, query: CallbackQuery):
 /reload - reload the bot and refresh the admin list
 /ping - check the bot ping status
 
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to @LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -360,7 +358,7 @@ async def cblamp(_, query: CallbackQuery):
 /control - opens the player settings panel
 /delcmd (on | off) - enable / disable del cmd feature
 
-Say thanks to @TEAM_SERPENT""",
+Say thanks to LishRaj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
