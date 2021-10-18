@@ -42,7 +42,7 @@ async def botstats(_, message: Message):
     disk_usage = psutil.disk_usage("/").percent
     total_users = await db.total_users_count()
     await message.reply_text(
-        text=f"**📊 stats of HERPENTS MUSIC** \n\n**🤖 bot version:** `{__version__}` \n\n**Total users:** \n » **On bot DM:** `{total_users}` \n\n**Disk usage:** \n » **Disk Space:** `{total}` \n » **Used:** `{used}({disk_usage}%)` \n » **free:** `{free}`bc ey bhi khatam hoga \n\n**Hardware usage:** \n » **CPU usage:** `{cpu_usage}%` \n » **RAM usage:** `{ram_usage}%`",
+        text=f"**📊 stats of LishRaj VC Bot** \n\n**🤖 bot version:** `{__version__}` \n\n**Total users:** \n » **On bot DM:** `{total_users}` \n\n**Disk usage:** \n » **Disk Space:** `{total}` \n » **Used:** `{used}({disk_usage}%)` \n » **free:** `{free}`bc ey bhi khatam hoga \n\n**Hardware usage:** \n » **CPU usage:** `{cpu_usage}%` \n » **RAM usage:** `{ram_usage}%`",
         parse_mode="Markdown",
         quote=True,
     )
