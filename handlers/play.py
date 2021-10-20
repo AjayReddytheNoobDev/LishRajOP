@@ -47,7 +47,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("Sedd, only admin can use this button !", show_alert=True)
+            await cb.answer("Sedd, **Only admin can use this button** !!", show_alert=True)
             return
 
     return decorator
@@ -121,8 +121,7 @@ async def playlist(client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
-                InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"),
+                InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"),
             ]
         ]
     )
@@ -261,10 +260,7 @@ async def p_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
-                InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
-                ),
+                InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
         ]
@@ -309,10 +305,7 @@ async def m_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/LishRaj"),
-                InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
-                ),
+                InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
         ]
@@ -484,7 +477,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **searching... 𝐋𝐢𝐬𝐡𝐑𝐚𝐣♥️ OP Bolte**")
+    lel = await message.reply("🔎 **searching... 𝐋𝐢𝐬𝐡❤️𝐑𝐚𝐣 OP Bolte**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -571,14 +564,14 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/lishraj"
+                        "💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/lishraj"
                     )
                 ],
             ]
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/84b3da649e65dbd08ad30.jpg"
+        thumb_name = "https://telegra.ph/file/2993db00887fddc3706d7.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -590,7 +583,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🔎 **searching.....𝐋𝐢𝐬𝐡𝐑𝐚𝐣♥️ OP Bolte**")
+        await lel.edit("🔎 **searching.....𝐋𝐢𝐬𝐡❤️𝐑𝐚𝐣 OP Bolte**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -620,7 +613,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
+                        "💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"
                     )
                 ],
             ]
@@ -650,7 +643,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}...](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├  **Duration** - `{results[j]['duration']}`\n"
-                toxxt += f" └  __Powered by 𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️__\n\n"
+                toxxt += f" └  __Powered by 𝐋𝐢𝐬𝐡❤️𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️__\n\n"
                 j += 1
             keyboard = InlineKeyboardMarkup(
                 [
@@ -714,7 +707,7 @@ async def play(_, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj"
+                            "💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"
                         )
                     ],
                 ]
@@ -819,7 +812,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("• CHANNEL", url=f"https://t.me/LishRaj")],
+            [InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj")],
         ]
     )
     await generate_cover(title, thumbnail, ctitle)
@@ -969,7 +962,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LishRaj")],
+            [InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj")],
         ]
     )
     message.from_user.first_name
