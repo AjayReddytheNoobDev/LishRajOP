@@ -18,11 +18,11 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""!! Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !!\n
-💭 **[LishRaj_VC_Bot](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
+💭 **[Lish❤️Raj_VC_Bot](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » COMMANDS button!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+❔ **To know how to use this bot, please click on the » Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -31,23 +31,21 @@ async def cbstart(_, query: CallbackQuery):
                         url=f"https://t.me/LishRaj_Vc_Bot?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("COMMANDS", callback_data="cbcmds"),
-                    InlineKeyboardButton("Donate (Me Ghareeb Hu)", url=f"https://t.me/LishRaj_Vc_Bot"),
-                ],
                 [
                     InlineKeyboardButton(
-                        "SUPPORT Group", url=f"https://t.me/LishRaj"
+                        "Basic Guide", callback_data="cbhowtouse"
                     ),
                     InlineKeyboardButton(
-                        "UPDATES Channel", url=f"https://t.me/LishRaj"
+                        "COMMANDS", callback_data="cbcmds"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE", url="https:/t.me/LishRaj"
-                    )
+                        "💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"
+                    ),
+                    InlineKeyboardButton(
+                        "💝 𝗦𝗼𝘂𝗿𝗰𝗲 💝", url="https:/t.me/LishRaj"
+                    ),
                 ],
             ]
         ),
@@ -62,7 +60,7 @@ async def cbhelp(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-Say Thanks to LishRaj""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -100,7 +98,7 @@ async def cbbasic(_, query: CallbackQuery):
 /refresh - refresh the admin cache
 /ubjoinc - invite the assistant for join to your channel
 
-Say Thanks to LishRaj""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -116,7 +114,7 @@ async def cbadvanced(_, query: CallbackQuery):
 /reload - reload the bot and refresh the admin list
 /ping - check the bot ping status
 
-Say Thanks to @TEAM_SERPENT""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -140,7 +138,7 @@ async def cbadmin(_, query: CallbackQuery):
 /control - opens the player settings panel
 /delcmd (on | off) - enable / disable del cmd featurep
 
-Say Thanks to LishRaj""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -158,7 +156,7 @@ async def cbsudo(_, query: CallbackQuery):
 /eval (query) - execute code
 /sh (query) - run code
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+say special thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -178,7 +176,7 @@ async def cbowner(_, query: CallbackQuery):
 
 📝 note: all commands owned by this bot can be executed by the owner of the bot without any exceptions.
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+Say special thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbhelp")]]
         ),
@@ -194,7 +192,7 @@ async def cbguide(_, query: CallbackQuery):
 2.) **Promote me in your group as admin and give all permissions including Add admins, but dont give me Reamin anonymous right**
 3.) **add @HERPENTSVCPLAYER to your group or type /join to invite that kid**
 4.) **Turn on the voice chat first before start to play music.**
-Say Thanks to LishRaj""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("COMMANDS", callback_data="cbhelp")],
@@ -261,7 +259,7 @@ async def cbhelps(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-Say thanks to @TEAM_SERPENT""",
+Say thanks to @Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -287,7 +285,7 @@ async def cbguides(_, query: CallbackQuery):
 3.) **add @{ASSISTANT_NAME} to your group or type /join to invite her.**
 4.) **Turn on the voice chat first before you start to play music.**
 
-Say thanks to @LishRaj""",
+Say thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -318,7 +316,7 @@ async def cblocal(_, query: CallbackQuery):
 /refresh - refresh the admin cache
 /ubjoinc - invite the assistant for join to your channel
 
-Say thanks to @LishRaj""",
+Say thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -334,7 +332,7 @@ async def cbadven(_, query: CallbackQuery):
 /reload - reload the bot and refresh the admin list
 /ping - check the bot ping status
 
-Say Thanks to @LishRaj""",
+Say Thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -376,7 +374,7 @@ async def cblab(_, query: CallbackQuery):
 /eval (query) - execute code
 /sh (query) - run code
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+Say thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -396,7 +394,7 @@ async def cbmoon(_, query: CallbackQuery):
 
 📝 note: all commands owned by this bot can be executed by the owner of the bot without any exceptions.
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+Say special thanks to Lish❤️Raj""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
