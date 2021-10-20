@@ -53,36 +53,33 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome Welcoome{message.from_user.mention} !**\n
-💭 **[𝐋𝐢𝐬𝐡𝐑𝐚𝐣 𝐕𝐜 𝐁𝐨𝐭⚡️♥️](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
-
+💭 **[Lish❤️Raj_VC_Bot](https://t.me/LishRaj_Vc_Bot) allows you to play music on groups through the new Telegram's voice chats!**
 💡 **Find out all the Bot's commands and how they work by clicking on the » Commands button!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+❔ **To know how to use this bot, please click on the » Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/LishRaj_Vc_Bot?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("Basic Guide", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate(Me gharib hu)", url=f"https://youtu.be/dQw4w9WgXcQ"),
-                ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/LishAj"
+                        "Basic Guide", callback_data="cbhowtouse"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/LishRaj"
+                        "COMMANDS", callback_data="cbcmds"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://t.me/LishRaj"
-                    )
+                        "💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"
+                    ),
+                    InlineKeyboardButton(
+                        "💝 𝗦𝗼𝘂𝗿𝗰𝗲 💝", url="https://t.me/LishRaj"
+                    ),
                 ],
             ]
         ),
@@ -101,10 +98,7 @@ async def start(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/LishRaj"),
-                InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/LishRaj"
-                ),
+                InlineKeyboardButton("💞 𝗟𝗢𝗩𝗘 💞", url=f"https://t.me/LishRaj"),
             ]
         ]
     )
@@ -139,7 +133,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `Love!! Lob!! PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `Love!! Lob!! **Lish❤️Raj** !! **PONG** !!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
